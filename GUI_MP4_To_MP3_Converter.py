@@ -31,6 +31,8 @@ root.title("GUI MP4 to MP3 Converter")  # Sets the window title
 
 # Creates input fields and labels
 Conv_label = tk.Label(root, text="Enter the path to your mp4 file:")  # Create a label
+#Note, the path to the file should be inputted like this:
+#C:/Users/User1/Downloads/file.mp4
 Conv_label.pack()  # Packs the label into the window
 Conv_entry = tk.Entry(root)  # Creates an input field to enter the path to the file
 Conv_entry.pack()  # Packs the input field into the window
